@@ -1,0 +1,21 @@
+{
+  "name": "desafio_treinamento_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open --config video=false --env allure=true",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open allure-report",
+    "allure:clear": "rmdir /s /q allure-results allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.5.1",
+    "cypress": "^7.4.0",
+    "cypress-grep": "^2.4.0",
+    "cypress-xpath": "^1.6.2"
+  }
+}

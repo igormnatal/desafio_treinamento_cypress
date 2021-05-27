@@ -1,0 +1,13 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "baseUrl": "https://barrigareact.wcaquino.me",
+    "env":{
+        "apiUrl": "https://barrigarest.wcaquino.me/signin",
+        "user": {
+            "email": "igor.natal@softplan.com.br",
+            "senha": "pwd123"
+        }
+      },
+      "viewportWidth": 1280,
+      "viewportHeight": 1024
+}
