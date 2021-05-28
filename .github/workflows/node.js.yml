@@ -27,13 +27,13 @@ jobs:
       with:
         node-version: 14.X
     #instalar dependências
-    - run: npm install
+    - run: npx install
     
     #executar os testes
     - run: npx cypress run
     
     # gerar relatório
-    - run: npm run allure:generate
+
     
     # upload do artefato
     - name: Upload a Build Artifact
