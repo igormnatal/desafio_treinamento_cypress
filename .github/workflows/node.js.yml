@@ -27,7 +27,7 @@ jobs:
       with:
         node-version: 14.X
     #instalar dependências
-    - run: npx install
+    - run: npm install
     
     #executar os testes
     - run: npx cypress run
