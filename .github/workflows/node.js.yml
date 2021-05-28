@@ -30,10 +30,11 @@ jobs:
     - run: npm install
     
     #executar os testes
+    - run: npm allure:clear
     - run: npx cypress run
     
     # gerar relatório
-
+    - run: npm allure:generate
     
     # upload do artefato
     - name: Upload a Build Artifact
