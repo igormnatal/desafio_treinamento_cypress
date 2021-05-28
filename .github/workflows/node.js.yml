@@ -30,7 +30,7 @@ jobs:
     - run: npm install
     
     #executar os testes
-    - run: npx cypress run
+    - run: npx cypress open
     
     # gerar relatório
     - run: npm run allure:generate
